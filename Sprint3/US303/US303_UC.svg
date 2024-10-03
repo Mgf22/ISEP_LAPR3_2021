@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="145px" preserveAspectRatio="none" style="width:535px;height:145px;background:#FFFFFF;" version="1.1" viewBox="0 0 535 145" width="535px" zoomAndPan="magnify"><defs><filter height="300%" id="f1nn2qjybvek4u" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[99b31deea5d7419a569cd5090bf83263]
+cluster System--><rect fill="#FFFFFF" filter="url(#f1nn2qjybvek4u)" height="126" style="stroke:#000000;stroke-width:1.5;" width="377" x="146" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="50" x="309.5" y="23.5332">System</text><ellipse cx="334.3231" cy="79.8646" fill="#FEFECE" filter="url(#f1nn2qjybvek4u)" rx="172.3231" ry="36.8646" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="311" x="176.8231" y="83.5931">Know which places  are closest to all other places</text><!--MD5=[566a1df68487c1fb1cc09ccf1a09a80e]
+entity TrafficManager--><ellipse cx="54" cy="48" fill="#FEFECE" filter="url(#f1nn2qjybvek4u)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M54,56 L54,83 M41,64 L67,64 M54,83 L41,98 M54,83 L67,98 " fill="none" filter="url(#f1nn2qjybvek4u)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="6" y="118.0332">TrafficManager</text><!--MD5=[80663511903455bc1750f7b52408364f]
+link TrafficManager to Know which places  are closest to all other places --><path d="M102.24,80 C119.47,80 140.1,80 161.84,80 " fill="none" id="TrafficManager-Know which places  are closest to all other places " style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[20e4b642f30f3df413ef0af2641a4d13]
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor TrafficManager
+rectangle "System"{
+    TrafficManager- -(Know which places  are closest to all other places )
+}
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="277px" preserveAspectRatio="none" style="width:1276px;height:277px;background:#FFFFFF;" version="1.1" viewBox="0 0 1276 277" width="1276px" zoomAndPan="magnify"><defs><filter height="300%" id="f1d3gv1g9b8i8m" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[99b31deea5d7419a569cd5090bf83263]
+cluster System--><rect fill="#FFFFFF" filter="url(#f1d3gv1g9b8i8m)" height="258" style="stroke:#000000;stroke-width:1.5;" width="1039" x="225" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="50" x="719.5" y="23.5332">System</text><ellipse cx="744.4401" cy="146.088" fill="#FEFECE" filter="url(#f1d3gv1g9b8i8m)" rx="503.4401" ry="103.088" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="985" x="251.9401" y="149.8165">I wish to know, the total energy to be supplied to the set of containers in a certain established trip, assuming that all the containers have the same behaviour.</text><!--MD5=[7df828270211d3db721ffb5807af0752]
+entity ShipChiefElectricalEngineer--><ellipse cx="93.5" cy="114" fill="#FEFECE" filter="url(#f1d3gv1g9b8i8m)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M93.5,122 L93.5,149 M80.5,130 L106.5,130 M93.5,149 L80.5,164 M93.5,149 L106.5,164 " fill="none" filter="url(#f1d3gv1g9b8i8m)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175" x="6" y="184.0332">ShipChiefElectricalEngineer</text><!--MD5=[4909c80eeab6613e033b5f41e58f9a60]
+link ShipChiefElectricalEngineer to I wish to know, the total energy to be supplied to the set of containers in a certain established trip, assuming that all the containers have the same behaviour.--><path d="M181.02,146 C198.96,146 219.07,146 240.7,146 " fill="none" id="ShipChiefElectricalEngineer-I wish to know, the total energy to be supplied to the set of containers in a certain established trip, assuming that all the containers have the same behaviour." style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[c5e0c3f3028859be2f3a8b270c3e2d62]
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor ShipChiefElectricalEngineer
+rectangle "System"{
+    ShipChiefElectricalEngineer- -(I wish to know, the total energy to be supplied to the set of containers in a certain established trip, assuming that all the containers have the same behaviour.)
+}
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

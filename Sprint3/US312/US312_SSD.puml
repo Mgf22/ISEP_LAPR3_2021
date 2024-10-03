@@ -1,0 +1,12 @@
+@startuml
+autonumber
+'hide footbox
+actor "Client" as ADM
+
+participant ":System" as Sys
+
+ADM -> Sys : Know the current situation of a specific container being used to transport goods of a client
+Sys --> ADM : Show the current situation of a client container
+
+
+@enduml

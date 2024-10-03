@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="165px" preserveAspectRatio="none" style="width:623px;height:165px;background:#FFFFFF;" version="1.1" viewBox="0 0 623 165" width="623px" zoomAndPan="magnify"><defs><filter height="300%" id="f1hn697rkxfieo" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[99b31deea5d7419a569cd5090bf83263]
+cluster System--><rect fill="#FFFFFF" filter="url(#f1hn697rkxfieo)" height="146" style="stroke:#000000;stroke-width:1.5;" width="479" x="132" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="50" x="346.5" y="23.5332">System</text><ellipse cx="371.4406" cy="90.0881" fill="#FEFECE" filter="url(#f1hn697rkxfieo)" rx="223.4406" ry="47.0881" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="420" x="161.4406" y="93.8166">Import ports from a text file and create a 2D-tree with port locations</text><!--MD5=[76e0c04a1766b72b0994a1178be1f4e5]
+entity PortManager--><ellipse cx="47" cy="58" fill="#FEFECE" filter="url(#f1hn697rkxfieo)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M47,66 L47,93 M34,74 L60,74 M47,93 L34,108 M47,93 L60,108 " fill="none" filter="url(#f1hn697rkxfieo)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="6" y="128.0332">PortManager</text><!--MD5=[7f79678af4abf5fd982283c4011a9e0f]
+link PortManager to Import ports from a text file and create a 2D-tree with port locations--><path d="M88.19,90 C104.74,90 125.3,90 147.72,90 " fill="none" id="PortManager-Import ports from a text file and create a 2D-tree with port locations" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[0c55958ae3a5032c06339fdbe128274f]
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor PortManager
+rectangle "System"{
+    PortManager- -(Import ports from a text file and create a 2D-tree with port locations)
+}
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

@@ -1,0 +1,8 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor ShipChiefEletricalEngineer
+rectangle "System"{
+    ShipChiefEletricalEngineer--(Know how much energy to supply, for each container)
+}
+@enduml

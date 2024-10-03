@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="255px" preserveAspectRatio="none" style="width:627px;height:255px;background:#FFFFFF;" version="1.1" viewBox="0 0 627 255" width="627px" zoomAndPan="magnify"><defs><filter height="300%" id="fq6p4k6g37d64" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="52" x2="52" y1="89.6094" y2="170.3125"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="585" x2="585" y1="89.6094" y2="170.3125"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="5" y="86.5332">FleetManager</text><ellipse cx="52" cy="15" fill="#FEFECE" filter="url(#fq6p4k6g37d64)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M52,23 L52,50 M39,31 L65,31 M52,50 L39,65 M52,50 L65,65 " fill="none" filter="url(#fq6p4k6g37d64)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="5" y="183.8457">FleetManager</text><ellipse cx="52" cy="196.9219" fill="#FEFECE" filter="url(#fq6p4k6g37d64)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M52,204.9219 L52,231.9219 M39,212.9219 L65,212.9219 M52,231.9219 L39,246.9219 M52,231.9219 L65,246.9219 " fill="none" filter="url(#fq6p4k6g37d64)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#fq6p4k6g37d64)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="60" x="553" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="560" y="74.5332">System</text><rect fill="#FEFECE" filter="url(#fq6p4k6g37d64)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="60" x="553" y="169.3125"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="560" y="190.8457">System</text><polygon fill="#A80036" points="573,117.9609,583,121.9609,573,125.9609,577,121.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="52" x2="579" y1="121.9609" y2="121.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="59" y="117.1045">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="498" x="70" y="117.1045">Request the average occupancy rate per manifest of a given ship during a given period.</text><polygon fill="#A80036" points="63,148.3125,53,152.3125,63,156.3125,59,152.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="57" x2="584" y1="152.3125" y2="152.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="69" y="147.4561">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="274" x="80" y="147.4561">Show the average occupancy rate per manifest.</text><!--MD5=[3760a4de32a4471ad492cf1e4463f066]
+@startuml
+'https://plantuml.com/sequence-diagram
+'hide footbox
+autonumber
+
+actor FleetManager as FleetManager
+FleetManager -> System: Request the average occupancy rate per manifest of a given ship during a given period.
+System - -> FleetManager: Show the average occupancy rate per manifest.
+@enduml
+
+@startuml
+autonumber
+
+actor FleetManager as FleetManager
+FleetManager -> System: Request the average occupancy rate per manifest of a given ship during a given period.
+System - -> FleetManager: Show the average occupancy rate per manifest.
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

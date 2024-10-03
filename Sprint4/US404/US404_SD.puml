@@ -1,0 +1,32 @@
+@startuml
+autonumber
+actor "Fleet Manager" as ADM
+
+participant ":UI" as ui
+participant ":Controller" as ctrl
+participant ":IdleShip()" as model
+database ":DataBase" as db
+
+
+activate ADM
+ADM -> ui : Asks to see the number of a days the ships have been idle in the current year
+
+
+
+
+ui -> ctrl : getIdleShip()
+activate ctrl
+ctrl -> model : getIdleShip()
+activate model
+model -> db : query to find all the days
+deactivate model
+activate db
+db --> ctrl : return the days per ship
+deactivate db
+ctrl --> ui : return the days per ship
+deactivate ctrl
+ui --> ADM : Show the days that a ship has been idle
+
+deactivate ui
+
+@enduml

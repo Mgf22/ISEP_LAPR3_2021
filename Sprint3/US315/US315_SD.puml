@@ -1,0 +1,19 @@
+@startuml
+autonumber
+actor "Port Staff" as ADM
+
+participant ":UI" as UI
+
+participant ":ContainerVerification" as COS
+
+activate ADM
+ADM -> UI: Give a position of a container
+activate UI
+UI -> COS: container_verification()
+activate COS
+COS --> UI: Return a number if a container is there or not
+deactivate COS
+UI --> ADM: Show if a container is there or not
+deactivate UI
+
+@enduml

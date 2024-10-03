@@ -1,0 +1,13 @@
+@startuml
+class UI{
+}
+
+class ReceiveAlert{
++receivealert()
+}
+
+
+UI ..> ReceiveAlert
+
+
+@enduml

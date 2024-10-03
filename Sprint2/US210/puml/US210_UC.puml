@@ -1,0 +1,27 @@
+@startuml
+autonumber
+actor "Traffic Manager" as TM
+
+participant ":PortShipUI" as psui
+participant ":AvailableShipController" as fsc
+participant ":Company" as comp
+participant ":AvailableShipStore" as ss
+
+
+activate TM
+TM -> psui : Search for a ship on a certain date
+activate psui
+psui -> fsc : AvailableShipController()
+activate fsc
+fsc -> comp : getAvailabeShipStore()
+activate comp
+comp -> ss : getAvailabeShipStore()
+activate ss
+ss --> comp : Ship
+comp --> fsc : Ship
+fsc --> psui : Ship
+psui --> TM : Ships available and their location
+
+
+
+@enduml

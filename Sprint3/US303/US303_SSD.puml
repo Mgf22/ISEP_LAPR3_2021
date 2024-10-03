@@ -1,0 +1,12 @@
+@startuml
+autonumber
+'hide footbox
+actor "Traffic Manager" as ADM
+
+participant ":System" as Sys
+
+ADM -> Sys : Know which places are closest to all other places
+Sys --> ADM : Show the closest places
+
+
+@enduml

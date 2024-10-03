@@ -1,0 +1,12 @@
+@startuml
+autonumber
+'hide footbox
+actor "Ship Chief Electrical Engineer" as ADM
+
+participant ":System" as Sys
+
+ADM -> Sys : Know set of materials to use in a container, to operate at temperatures of 7°C
+Sys --> ADM : Show materials to use in the container
+
+
+@enduml

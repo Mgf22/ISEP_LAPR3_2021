@@ -1,0 +1,29 @@
+@startuml
+left to right direction
+
+class Company{
+    -name
+}
+
+class Workers {
+    -name
+    -birth_date
+    -email
+    -adress
+    -phone
+    -salary
+}
+
+class Ship_chief_eletrical_engineer {
+}
+
+class Control_eletrical_part_of_Ship{
+}
+
+
+
+Company "1" --  "*" Workers : has
+Workers "*" --  "1" Ship_chief_eletrical_engineer : has
+Ship_chief_eletrical_engineer "1" --  "1" Control_eletrical_part_of_Ship : does
+
+@enduml

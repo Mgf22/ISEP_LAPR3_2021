@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="451px" preserveAspectRatio="none" style="width:869px;height:451px;background:#FFFFFF;" version="1.1" viewBox="0 0 869 451" width="869px" zoomAndPan="magnify"><defs><filter height="300%" id="f12posg8tsw4zu" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f12posg8tsw4zu)" height="256.8125" style="stroke:#A80036;stroke-width:1.0;" width="10" x="53" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f12posg8tsw4zu)" height="225.4609" style="stroke:#A80036;stroke-width:1.0;" width="10" x="469" y="121.9609"/><rect fill="#FFFFFF" filter="url(#f12posg8tsw4zu)" height="164.7578" style="stroke:#A80036;stroke-width:1.0;" width="10" x="566" y="152.3125"/><rect fill="#FFFFFF" filter="url(#f12posg8tsw4zu)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="689" y="182.6641"/><rect fill="#FFFFFF" filter="url(#f12posg8tsw4zu)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="812" y="213.0156"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="58" x2="58" y1="89.6094" y2="365.4219"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="474" x2="474" y1="89.6094" y2="365.4219"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="571" x2="571" y1="89.6094" y2="365.4219"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="694" x2="694" y1="89.6094" y2="365.4219"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="817" x2="817" y1="89.6094" y2="365.4219"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="5" y="86.5332">Traffic Manager</text><ellipse cx="58" cy="15" fill="#FEFECE" filter="url(#f12posg8tsw4zu)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M58,23 L58,50 M45,31 L71,31 M58,50 L45,65 M58,50 L71,65 " fill="none" filter="url(#f12posg8tsw4zu)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="5" y="378.9551">Traffic Manager</text><ellipse cx="58" cy="392.0313" fill="#FEFECE" filter="url(#f12posg8tsw4zu)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M58,400.0313 L58,427.0313 M45,408.0313 L71,408.0313 M58,427.0313 L45,442.0313 M58,427.0313 L71,442.0313 " fill="none" filter="url(#f12posg8tsw4zu)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f12posg8tsw4zu)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="58" x="443" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="450" y="74.5332">:ShipUI</text><rect fill="#FEFECE" filter="url(#f12posg8tsw4zu)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="58" x="443" y="364.4219"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="450" y="385.9551">:ShipUI</text><rect fill="#FEFECE" filter="url(#f12posg8tsw4zu)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="108" x="515" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="522" y="74.5332">:ShipController</text><rect fill="#FEFECE" filter="url(#f12posg8tsw4zu)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="108" x="515" y="364.4219"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="522" y="385.9551">:ShipController</text><rect fill="#FEFECE" filter="url(#f12posg8tsw4zu)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="78" x="653" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="660" y="74.5332">:Company</text><rect fill="#FEFECE" filter="url(#f12posg8tsw4zu)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="78" x="653" y="364.4219"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="660" y="385.9551">:Company</text><rect fill="#FEFECE" filter="url(#f12posg8tsw4zu)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="80" x="775" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="782" y="74.5332">:ShipStore</text><rect fill="#FEFECE" filter="url(#f12posg8tsw4zu)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="80" x="775" y="364.4219"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="782" y="385.9551">:ShipStore</text><rect fill="#FFFFFF" filter="url(#f12posg8tsw4zu)" height="256.8125" style="stroke:#A80036;stroke-width:1.0;" width="10" x="53" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f12posg8tsw4zu)" height="225.4609" style="stroke:#A80036;stroke-width:1.0;" width="10" x="469" y="121.9609"/><rect fill="#FFFFFF" filter="url(#f12posg8tsw4zu)" height="164.7578" style="stroke:#A80036;stroke-width:1.0;" width="10" x="566" y="152.3125"/><rect fill="#FFFFFF" filter="url(#f12posg8tsw4zu)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="689" y="182.6641"/><rect fill="#FFFFFF" filter="url(#f12posg8tsw4zu)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="812" y="213.0156"/><polygon fill="#A80036" points="457,117.9609,467,121.9609,457,125.9609,461,121.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="63" x2="463" y1="121.9609" y2="121.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="70" y="117.1045">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="355" x="81" y="117.1045">asks for pairs of ships with close departure/arrival coordinates</text><polygon fill="#A80036" points="554,148.3125,564,152.3125,554,156.3125,558,152.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="479" x2="560" y1="152.3125" y2="152.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="486" y="147.4561">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="56" x="497" y="147.4561">getPairs()</text><polygon fill="#A80036" points="677,178.6641,687,182.6641,677,186.6641,681,182.6641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="576" x2="683" y1="182.6641" y2="182.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="583" y="177.8076">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="594" y="177.8076">getShipStore()</text><polygon fill="#A80036" points="800,209.0156,810,213.0156,800,217.0156,804,213.0156" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="694" x2="806" y1="213.0156" y2="213.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="701" y="208.1592">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="712" y="208.1592">getShipStore()</text><polygon fill="#A80036" points="587,239.3672,577,243.3672,587,247.3672,583,243.3672" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="581" x2="816" y1="243.3672" y2="243.3672"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="593" y="238.5107">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="47" x="604" y="238.5107">ShipList</text><line style="stroke:#A80036;stroke-width:1.0;" x1="576" x2="618" y1="273.7188" y2="273.7188"/><line style="stroke:#A80036;stroke-width:1.0;" x1="618" x2="618" y1="273.7188" y2="286.7188"/><line style="stroke:#A80036;stroke-width:1.0;" x1="577" x2="618" y1="286.7188" y2="286.7188"/><polygon fill="#A80036" points="587,282.7188,577,286.7188,587,290.7188,583,286.7188" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="583" y="268.8623">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="594" y="268.8623">filterList()</text><polygon fill="#A80036" points="490,313.0703,480,317.0703,490,321.0703,486,317.0703" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="484" x2="570" y1="317.0703" y2="317.0703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="496" y="312.2139">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="33" x="507" y="312.2139">Ships</text><polygon fill="#A80036" points="74,343.4219,64,347.4219,74,351.4219,70,347.4219" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="68" x2="473" y1="347.4219" y2="347.4219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="80" y="342.5654">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="371" x="91" y="342.5654">returns the pairs of ships with close departure/arrival coordinates</text><!--MD5=[17331f0fc72b0fe69faec9b3c1ce0e0d]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Traffic Manager" as tm
+
+participant ":ShipUI" as ShipUI
+participant ":ShipController" as ShipCtrl
+participant ":Company" as Comp
+participant ":ShipStore" as Ss
+
+activate tm
+tm -> ShipUI : asks for pairs of ships with close departure/arrival coordinates
+activate ShipUI
+ShipUI -> ShipCtrl : getPairs()
+activate ShipCtrl
+ShipCtrl -> Comp : getShipStore()
+activate Comp
+Comp -> Ss : getShipStore()
+deactivate Comp
+activate Ss
+Ss -> ShipCtrl : ShipList
+deactivate Ss
+ShipCtrl -> ShipCtrl : filterList()
+ShipCtrl -> ShipUI : Ships
+deactivate ShipCtrl
+ShipUI -> tm : returns the pairs of ships with close departure/arrival coordinates
+deactivate ShipUI
+@enduml
+
+@startuml
+
+autonumber
+
+actor "Traffic Manager" as tm
+
+participant ":ShipUI" as ShipUI
+participant ":ShipController" as ShipCtrl
+participant ":Company" as Comp
+participant ":ShipStore" as Ss
+
+activate tm
+tm -> ShipUI : asks for pairs of ships with close departure/arrival coordinates
+activate ShipUI
+ShipUI -> ShipCtrl : getPairs()
+activate ShipCtrl
+ShipCtrl -> Comp : getShipStore()
+activate Comp
+Comp -> Ss : getShipStore()
+deactivate Comp
+activate Ss
+Ss -> ShipCtrl : ShipList
+deactivate Ss
+ShipCtrl -> ShipCtrl : filterList()
+ShipCtrl -> ShipUI : Ships
+deactivate ShipCtrl
+ShipUI -> tm : returns the pairs of ships with close departure/arrival coordinates
+deactivate ShipUI
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

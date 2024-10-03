@@ -1,0 +1,12 @@
+@startuml
+autonumber
+'hide footbox
+actor "Port Manager" as ADM
+
+participant ":System" as Sys
+
+ADM -> Sys : Know the occupancy rate of each warehouse and an estimate of the containers leaving the warehouse during the next 30 days
+Sys --> ADM : Show the occupancy rate of each warehouse and an estimate of the containers leaving the warehouse during the next 30 days
+
+
+@enduml

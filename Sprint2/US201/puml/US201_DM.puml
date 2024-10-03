@@ -1,0 +1,17 @@
+@startuml
+left to right direction
+
+class Company{
+    -name
+}
+
+class PortWarehouse {
+    -name
+    -latitude
+    -longitude
+    -country
+    -continent
+}
+
+Company "1" -- "*" PortWarehouse : has
+@enduml

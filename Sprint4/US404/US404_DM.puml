@@ -1,0 +1,30 @@
+@startuml
+left to right direction
+
+class Company{
+    -name
+}
+
+class Ship {
+-mmsi
+-imo
+-n_generators
+-length
+-width
+-p_generators
+-capacity
+-ship_name
+-vessel_type
+-call_sign
+-draft
+-date_time
+-latitude
+-longitude
+-sog
+-cog
+-heading
+-transceiver_class
+}
+
+Company "1" --  "*" Ship : has
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+autonumber
+'hide footbox
+actor "Ship Chief Eletrical Engineer" as ADM
+
+participant ":System" as Sys
+
+ADM -> Sys : Calculate the energy required to supply each container
+Sys --> ADM : Receive the value of the energy
+
+@enduml

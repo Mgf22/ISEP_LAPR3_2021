@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="265px" preserveAspectRatio="none" style="width:1136px;height:265px;background:#FFFFFF;" version="1.1" viewBox="0 0 1136 265" width="1136px" zoomAndPan="magnify"><defs><filter height="300%" id="f62l4nmjuuja8" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[99b31deea5d7419a569cd5090bf83263]
+cluster System--><rect fill="#FFFFFF" filter="url(#f62l4nmjuuja8)" height="246" style="stroke:#000000;stroke-width:1.5;" width="978" x="146" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="50" x="610" y="23.5332">System</text><ellipse cx="635.066" cy="140.0132" fill="#FEFECE" filter="url(#f62l4nmjuuja8)" rx="473.066" ry="97.0132" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="924" x="173.066" y="143.7417">As Traffic manager, I want to have a system that ensures that the number of containers in a manifest does not exceed the ship's available capacity.</text><!--MD5=[566a1df68487c1fb1cc09ccf1a09a80e]
+entity TrafficManager--><ellipse cx="54" cy="108" fill="#FEFECE" filter="url(#f62l4nmjuuja8)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M54,116 L54,143 M41,124 L67,124 M54,143 L41,158 M54,143 L67,158 " fill="none" filter="url(#f62l4nmjuuja8)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="6" y="178.0332">TrafficManager</text><!--MD5=[22662bda9d0c9bcdf797f14f57bf2846]
+link TrafficManager to As Traffic manager, I want to have a system that ensures that the number of containers in a manifest does not exceed the ship's available capacity.--><path d="M102.38,140 C118.92,140 139.12,140 161.85,140 " fill="none" id="TrafficManager-As Traffic manager, I want to have a system that ensures that the number of containers in a manifest does not exceed the ship's available capacity." style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[df6ce04e3f10b472d3f8629abba1f14b]
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor TrafficManager
+rectangle "System"{
+TrafficManager- -(As Traffic manager, I want to have a system that ensures that the number of containers in a manifest does not exceed the ship's available capacity.)
+}
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

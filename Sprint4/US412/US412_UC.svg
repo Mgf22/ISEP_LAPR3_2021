@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="149px" preserveAspectRatio="none" style="width:624px;height:149px;background:#FFFFFF;" version="1.1" viewBox="0 0 624 149" width="624px" zoomAndPan="magnify"><defs><filter height="300%" id="f1e1mcwxgutmmw" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[99b31deea5d7419a569cd5090bf83263]
+cluster System--><rect fill="#FFFFFF" filter="url(#f1e1mcwxgutmmw)" height="130" style="stroke:#000000;stroke-width:1.5;" width="394" x="218" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="50" x="390" y="23.5332">System</text><ellipse cx="415.029" cy="82.1058" fill="#FEFECE" filter="url(#f1e1mcwxgutmmw)" rx="181.029" ry="38.6058" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="333" x="248.529" y="85.8343">Know how much energy to supply, for each container</text><!--MD5=[b8185cd3258c0fe0adbcbc8e842ae2e1]
+entity ShipChiefEletricalEngineer--><ellipse cx="90" cy="50" fill="#FEFECE" filter="url(#f1e1mcwxgutmmw)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M90,58 L90,85 M77,66 L103,66 M90,85 L77,100 M90,85 L103,100 " fill="none" filter="url(#f1e1mcwxgutmmw)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="168" x="6" y="120.0332">ShipChiefEletricalEngineer</text><!--MD5=[2aace36e0293471f61de760048b8f4ec]
+link ShipChiefEletricalEngineer to Know how much energy to supply, for each container--><path d="M174.18,82 C192.69,82 213,82 233.73,82 " fill="none" id="ShipChiefEletricalEngineer-Know how much energy to supply, for each container" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7787047186582b822c1350afeb0e0311]
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor ShipChiefEletricalEngineer
+rectangle "System"{
+    ShipChiefEletricalEngineer- -(Know how much energy to supply, for each container)
+}
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

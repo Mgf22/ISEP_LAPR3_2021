@@ -1,0 +1,11 @@
+@startuml
+autonumber
+'hide footbox
+actor "Fleet Manager" as ADM
+
+participant ":System" as Sys
+
+ADM -> Sys : Know the number of days each ship has been idle since the beginning of the current year
+Sys --> ADM : Show the number of days each ship has been idle since the beginning of the current year
+
+@enduml

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="391px" preserveAspectRatio="none" style="width:456px;height:391px;background:#FFFFFF;" version="1.1" viewBox="0 0 456 391" width="456px" zoomAndPan="magnify"><defs><filter height="300%" id="fhyq4tlr7xuqh" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#fhyq4tlr7xuqh)" height="188.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="53" y="99.6094"/><rect fill="#FFFFFF" filter="url(#fhyq4tlr7xuqh)" height="55.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="407" y="121.9609"/><rect fill="#FFFFFF" filter="url(#fhyq4tlr7xuqh)" height="64.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="407" y="232.6641"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="58" x2="58" y1="89.6094" y2="306.0156"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="412" x2="412" y1="89.6094" y2="306.0156"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="5" y="86.5332">Traffic Manager</text><ellipse cx="58" cy="15" fill="#FEFECE" filter="url(#fhyq4tlr7xuqh)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M58,23 L58,50 M45,31 L71,31 M58,50 L45,65 M58,50 L71,65 " fill="none" filter="url(#fhyq4tlr7xuqh)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="5" y="319.5488">Traffic Manager</text><ellipse cx="58" cy="332.625" fill="#FEFECE" filter="url(#fhyq4tlr7xuqh)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M58,340.625 L58,367.625 M45,348.625 L71,348.625 M58,367.625 L45,382.625 M58,367.625 L71,382.625 " fill="none" filter="url(#fhyq4tlr7xuqh)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#fhyq4tlr7xuqh)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="378" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="385" y="74.5332">:System</text><rect fill="#FEFECE" filter="url(#fhyq4tlr7xuqh)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="378" y="305.0156"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="385" y="326.5488">:System</text><rect fill="#FFFFFF" filter="url(#fhyq4tlr7xuqh)" height="188.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="53" y="99.6094"/><rect fill="#FFFFFF" filter="url(#fhyq4tlr7xuqh)" height="55.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="407" y="121.9609"/><rect fill="#FFFFFF" filter="url(#fhyq4tlr7xuqh)" height="64.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="407" y="232.6641"/><polygon fill="#A80036" points="395,117.9609,405,121.9609,395,125.9609,399,121.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="63" x2="401" y1="121.9609" y2="121.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="70" y="117.1045">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="125" x="81" y="117.1045">asks to search a ship</text><polygon fill="#A80036" points="74,173.3125,64,177.3125,74,181.3125,70,177.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="68" x2="411" y1="177.3125" y2="177.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="80" y="172.4561">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="282" x="91" y="172.4561">asks one of it's codes(MMSI, IMMO or Call Sign)</text><polygon fill="#A80036" points="395,228.6641,405,232.6641,395,236.6641,399,232.6641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="63" x2="401" y1="232.6641" y2="232.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="70" y="227.8076">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="314" x="81" y="227.8076">introduces one of it's codes(MMSI, IMMO or Call Sign)</text><polygon fill="#A80036" points="69,284.0156,59,288.0156,69,292.0156,65,288.0156" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="63" x2="406" y1="288.0156" y2="288.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="75" y="283.1592">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="218" x="86" y="283.1592">shows the details of the selected ship</text><!--MD5=[b993b4ff69b05f0ce0438ff77e58a8ad]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Traffic Manager" as tm
+
+activate tm
+tm -> ":System" : asks to search a ship
+|||
+activate ":System"
+":System" - -> tm : asks one of it's codes(MMSI, IMMO or Call Sign)
+|||
+deactivate ":System"
+tm -> ":System" : introduces one of it's codes(MMSI, IMMO or Call Sign)
+|||
+activate ":System"
+":System" - -> tm : shows the details of the selected ship
+deactivate tm
+@enduml
+
+@startuml
+
+autonumber
+
+actor "Traffic Manager" as tm
+
+activate tm
+tm -> ":System" : asks to search a ship
+|||
+activate ":System"
+":System" - -> tm : asks one of it's codes(MMSI, IMMO or Call Sign)
+|||
+deactivate ":System"
+tm -> ":System" : introduces one of it's codes(MMSI, IMMO or Call Sign)
+|||
+activate ":System"
+":System" - -> tm : shows the details of the selected ship
+deactivate tm
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

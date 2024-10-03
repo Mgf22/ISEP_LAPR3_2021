@@ -1,0 +1,40 @@
+@startuml
+class PortShipUI{
+}
+
+class ReadPortController{
++getPorts(String code, Date data)
+}
+
+class Company{
+-PortStore ps
+--
++getPortStore()
+}
+
+class PortStore{
+-KdTree<Ports> kd
+--
++getPortStore()
++insert(Ports port,double lat, double lon)
+}
+
+
+class Ports{
+-idPort
+-name
+-lat
+-lon
+-continent
+-country
+--
++toString()
+}
+
+PortShipUI ..> ReadPortController
+ReadPortController ..> Company
+Company --> PortStore
+ReadPortController ..> PortStore
+PortStore --> Ports
+
+@enduml

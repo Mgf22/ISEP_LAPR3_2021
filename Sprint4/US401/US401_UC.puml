@@ -1,0 +1,8 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor TrafficManager
+rectangle "System"{
+    TrafficManager--(Know which ports are more critical)
+}
+@enduml

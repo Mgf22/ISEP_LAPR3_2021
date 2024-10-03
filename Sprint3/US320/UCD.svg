@@ -1,0 +1,21 @@
+?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="271px" preserveAspectRatio="none" style="width:1246px;height:271px;background:#FFFFFF;" version="1.1" viewBox="0 0 1246 271" width="1246px" zoomAndPan="magnify"><defs><filter height="300%" id="f17sp41fud35d6" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[99b31deea5d7419a569cd5090bf83263]
+cluster System--><rect fill="#FFFFFF" filter="url(#f17sp41fud35d6)" height="252" style="stroke:#000000;stroke-width:1.5;" width="1009" x="225" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="50" x="704.5" y="23.5332">System</text><ellipse cx="729.5001" cy="143.1" fill="#FEFECE" filter="url(#f17sp41fud35d6)" rx="488.5001" ry="100.1" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="955" x="252.0001" y="146.8285">I intend to present in a summary document, the choice of materials considered for the two types of containers considered, and their thermal resistances.</text><!--MD5=[7df828270211d3db721ffb5807af0752]
+entity ShipChiefElectricalEngineer--><ellipse cx="93.5" cy="111" fill="#FEFECE" filter="url(#f17sp41fud35d6)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M93.5,119 L93.5,146 M80.5,127 L106.5,127 M93.5,146 L80.5,161 M93.5,146 L106.5,161 " fill="none" filter="url(#f17sp41fud35d6)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175" x="6" y="181.0332">ShipChiefElectricalEngineer</text><!--MD5=[5df9e00384b7b62705c886325b2eaf06]
+link ShipChiefElectricalEngineer to I intend to present in a summary document, the choice of materials considered for the two types of containers considered, and their thermal resistances.--><path d="M181.33,143 C199.21,143 219.23,143 240.73,143 " fill="none" id="ShipChiefElectricalEngineer-I intend to present in a summary document, the choice of materials considered for the two types of containers considered, and their thermal resistances." style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d0f06065e89a39620c68ac441d86c22a]
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor ShipChiefElectricalEngineer
+rectangle "System"{
+    ShipChiefElectricalEngineer- -(I intend to present in a summary document, the choice of materials considered for the two types of containers considered, and their thermal resistances.)
+}
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

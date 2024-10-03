@@ -1,0 +1,25 @@
+@startuml
+top to bottom direction
+class UI
+class Controller
+class FindContainerInvalid
+UI ..> Controller
+Controller ..> FindContainerInvalid
+
+class UI {
+
+}
+
+class Controller{
+-id_load_unload
+-id_container
++findContainerInvalid(id_container)
+}
+
+class FindContainerInvalid {
+-ship_name
+-port_name
++findContainerInvalid(id_container)
+}
+
+@enduml

@@ -1,0 +1,12 @@
+Every name of table, columns, etc should be as short as possible and identify the table, column, etc and leave no doubt
+If there more than 1 word is needed both words need to be separated by '_'
+Words always singular
+Tables always start with uppercase letter
+Columns always start with lowercase letter
+Primary Keys and Foreign Keys are always like 'id_' + the identification of the column
+
+Contraints:
+	add 'PK' - for primary key constraints
+	add 'FK' - for foreign key constraints
+	add 'UQ' - for unique constraints
+	add 'CK' - for check constraints

@@ -1,0 +1,24 @@
+@startuml
+class OccupancyWarehouseUI{
+}
+
+class OccupancyWarehouseController{
++getOccupancyWarehouse(int id_port_ware)
+}
+
+class Company{
++getOccupancyWarehouseStore()
+}
+
+class OccupancyWarehouseStore{
++getOccupancyWarehouseStore(int id_port_ware)
+}
+
+OccupancyWarehouseUI ..> OccupancyWarehouseController
+OccupancyWarehouseController ..> OccupancyWarehouseStore
+OccupancyWarehouseController ..> Company
+Company --> OccupancyWarehouseStore
+
+
+
+@enduml

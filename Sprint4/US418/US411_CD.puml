@@ -1,0 +1,13 @@
+@startuml
+class UI{
+}
+
+class CenterOfMass{
++calculateCM()
+}
+
+
+UI ..> CenterOfMass
+
+
+@enduml

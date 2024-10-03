@@ -1,0 +1,35 @@
+@startuml
+autonumber
+actor "Client" as ADM
+
+participant ":UI" as ui
+participant ":Controller" as ctrl
+participant ":FindContainerInvalid()" as model
+database ":DataBase" as db
+
+
+activate ADM
+ADM -> ui : Asks to search the current situation of a specific container
+
+activate ui
+ui --> ADM : Request container identifier
+deactivate ui
+ADM -> ui : Insert container identifier
+activate ui
+
+ui -> ctrl : findContainerInvalid()
+activate ctrl
+ctrl -> model : findContainerInvalid()
+activate model
+model -> db : query to find container
+deactivate model
+activate db
+db --> ctrl : return container location
+deactivate db
+ctrl --> ui : return container location
+deactivate ctrl
+ui --> ADM : show container location
+
+deactivate ui
+
+@enduml

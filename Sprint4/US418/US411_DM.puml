@@ -1,0 +1,29 @@
+@startuml
+left to right direction
+
+class Company{
+    -name
+}
+
+class Workers {
+    -name
+    -birth_date
+    -email
+    -adress
+    -phone
+    -salary
+}
+
+class Ship_captain {
+}
+
+class Oversee_ship_operations{
+}
+
+
+
+Company "1" --  "*" Workers : has
+Workers "*" --  "1" Ship_captain : has
+Ship_captain "1" --  "1" Oversee_ship_operations : does
+
+@enduml

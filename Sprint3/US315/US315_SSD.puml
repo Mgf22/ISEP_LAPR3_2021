@@ -1,0 +1,12 @@
+@startuml
+autonumber
+'hide footbox
+actor "Client" as ADM
+
+participant ":System" as Sys
+
+ADM -> Sys : Know if a container is at the port or not by a given position on the vehicle
+Sys --> ADM : Show the status of the container
+
+
+@enduml

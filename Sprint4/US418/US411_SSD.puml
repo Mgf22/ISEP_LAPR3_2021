@@ -1,0 +1,11 @@
+@startuml
+autonumber
+'hide footbox
+actor "Ship Captain" as ADM
+
+participant ":System" as Sys
+
+ADM -> Sys : Determine the unladen center of mass for each vessel
+Sys --> ADM : Send back the value of x and y
+
+@enduml

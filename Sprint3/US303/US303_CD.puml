@@ -1,0 +1,34 @@
+@startuml
+class PortShipUI{
+}
+
+class ClosestLocalController{
++returnClosest()
+}
+
+class Company{
+-GraphStore gs
+--
++getGraphStore()
+}
+
+class GraphStore{
+-MatrixGraph<PortsGraph, Integer> graph
+--
++MatrixGraph<PortsGraph, Integer> getGraphStore()
+}
+
+class ClosestLocal{
+--
++ Map<PortsGraph, Set<PortsGraph>> returnClosest(MatrixGraph<PortsGraph, Integer>)
+
+}
+
+
+PortShipUI ..> ClosestLocalController
+ClosestLocalController ..> Company
+Company --> GraphStore
+ClosestLocalController ..> GraphStore
+GraphStore -> ClosestLocal
+
+@enduml

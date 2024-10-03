@@ -1,0 +1,8 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor PortManager
+rectangle "System"{
+    PortManager--(Know the occupancy rate of each warehouse and an estimate of the containers leaving the warehouse during the next 30 days)
+}
+@enduml

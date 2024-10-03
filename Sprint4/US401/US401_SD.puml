@@ -1,0 +1,26 @@
+@startuml
+autonumber
+actor "Traffic Manager" as TM
+
+participant ":PortShipUI" as psui
+participant ":CriticalPortController" as rgc
+participant ":Company" as comp
+participant ":GraphStore" as gs
+
+
+activate TM
+TM -> psui : Asks to know which ports are more critical
+activate psui
+psui -> rgc : returnCritical()
+activate rgc
+rgc -> comp : getGraphStore()
+activate comp
+comp -> gs : getGraph()
+activate gs
+gs --> comp : Graph
+comp --> rgc : Graph
+rgc --> psui : Graph
+
+
+
+@enduml

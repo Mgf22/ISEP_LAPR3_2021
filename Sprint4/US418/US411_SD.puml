@@ -1,0 +1,19 @@
+@startuml
+autonumber
+actor "Ship Captain" as ADM
+
+participant ":UI" as UI
+
+participant ":CenterOfMass" as COS
+
+activate ADM
+ADM -> UI:
+activate UI
+UI -> COS: calculateCM()
+activate COS
+COS --> UI: Receive the value x and y of the center of mass
+deactivate COS
+UI --> ADM: Shows the center of mass
+deactivate UI
+
+@enduml

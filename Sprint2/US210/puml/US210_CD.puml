@@ -1,0 +1,24 @@
+@startuml
+class AvailableShipUI{
+}
+
+class AvailableShipController{
++getAvailableShip(Date baseDateTime)
+}
+
+class Company{
++getAvailableShipStore()
+}
+
+class AvailableShipStore{
++getAvailableShipStore(Date baseDateTime)
+}
+
+AvailableShipUI ..> AvailableShipController
+AvailableShipController ..> AvailableShipStore
+AvailableShipController ..> Company
+Company --> AvailableShipStore
+
+
+
+@enduml

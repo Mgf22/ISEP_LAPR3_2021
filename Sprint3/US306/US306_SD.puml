@@ -1,0 +1,34 @@
+@startuml
+autonumber
+actor Portmanager as pm
+
+participant ":OccupancyWarehouseUI" as orui
+participant ":OccupancyWarehouseController" as owc
+participant ":Company" as comp
+participant ":OccupancyWarehouseStore" as ows
+
+activate pm
+pm -> orui : , I want to know the occupancy rate of each warehouse and an estimate of the containers leaving the warehouse during the next 30 days.
+activate orui
+orui --> pm : Show the occupancy rate of each warehouse and an estimate of the containers leaving the warehouse during the next 30 days.
+deactivate orui
+pm -> orui : Insert id_port_ware
+activate orui
+orui -> owc : getOccupancyWarehouse(int id_port_ware)
+activate owc
+owc -> comp : getOccupancyWarehouseStore()
+activate comp
+comp -> ows : getOccupancyWarehouseStore()
+activate ows
+deactivate ows
+deactivate comp
+owc -> ows : getOccupancyWarehouse(int id_port_ware)
+activate ows
+ows --> owc : returns occupancy rate
+deactivate ows
+owc --> orui : returns occupancy rate
+deactivate owc
+orui --> pm : returns occupancy rate
+deactivate orui
+deactivate pm
+@enduml

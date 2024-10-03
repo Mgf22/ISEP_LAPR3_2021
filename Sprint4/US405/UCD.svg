@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="199px" preserveAspectRatio="none" style="width:793px;height:199px;background:#FFFFFF;" version="1.1" viewBox="0 0 793 199" width="793px" zoomAndPan="magnify"><defs><filter height="300%" id="fz00axkztoi11" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[99b31deea5d7419a569cd5090bf83263]
+cluster System--><rect fill="#FFFFFF" filter="url(#fz00axkztoi11)" height="180" style="stroke:#000000;stroke-width:1.5;" width="643" x="138" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="50" x="434.5" y="23.5332">System</text><ellipse cx="459.7182" cy="107.0436" fill="#FEFECE" filter="url(#fz00axkztoi11)" rx="305.7182" ry="63.5436" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="587" x="166.2182" y="110.7722">I wish to know the average occupancy rate per manifest of a given ship during a given period.</text><!--MD5=[04b1498491270279ecb0d57ba03a56e7]
+entity FleetManager--><ellipse cx="50" cy="75" fill="#FEFECE" filter="url(#fz00axkztoi11)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M50,83 L50,110 M37,91 L63,91 M50,110 L37,125 M50,110 L63,125 " fill="none" filter="url(#fz00axkztoi11)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="6" y="145.0332">FleetManager</text><!--MD5=[5ac11d18e4c742a13780d4493b66fdd5]
+link FleetManager to I wish to know the average occupancy rate per manifest of a given ship during a given period.--><path d="M94.22,107 C110.82,107 131.27,107 153.96,107 " fill="none" id="FleetManager-I wish to know the average occupancy rate per manifest of a given ship during a given period." style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e0a262859735b7d41559d6012ac493ff]
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor FleetManager
+rectangle "System"{
+    FleetManager- -(I wish to know the average occupancy rate per manifest of a given ship during a given period.)
+}
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

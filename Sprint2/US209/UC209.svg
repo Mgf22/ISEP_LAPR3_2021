@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="155px" preserveAspectRatio="none" style="width:568px;height:155px;background:#FFFFFF;" version="1.1" viewBox="0 0 568 155" width="568px" zoomAndPan="magnify"><defs><filter height="300%" id="fkku8jssds5w8" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[8ae77ada6169822435c3d3bcb01b6727]
+cluster system--><rect fill="#FFFFFF" filter="url(#fkku8jssds5w8)" height="136" style="stroke:#000000;stroke-width:1.5;" width="429" x="127" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="49" x="317" y="23.5332">system</text><ellipse cx="341.5206" cy="85.1041" fill="#FEFECE" filter="url(#fkku8jssds5w8)" rx="198.5206" ry="42.1041" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="369" x="157.0206" y="88.8326">Find the occupancy rate of a given ship at a given moment</text><!--MD5=[0a52bc6ed51ceb008a86f41348bb2385]
+entity ShipCaptain--><ellipse cx="44.5" cy="53" fill="#FEFECE" filter="url(#fkku8jssds5w8)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M44.5,61 L44.5,88 M31.5,69 L57.5,69 M44.5,88 L31.5,103 M44.5,88 L57.5,103 " fill="none" filter="url(#fkku8jssds5w8)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="6" y="123.0332">ShipCaptain</text><!--MD5=[6edfc92b18eef2870835488f8777406b]
+link ShipCaptain to Find the occupancy rate of a given ship at a given moment--><path d="M83.16,85 C99.63,85 120.3,85 142.74,85 " fill="none" id="ShipCaptain-Find the occupancy rate of a given ship at a given moment" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[9b9e52acbd30286069a4b35c9095b329]
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor ShipCaptain
+rectangle "system"{
+    ShipCaptain- -(Find the occupancy rate of a given ship at a given moment)
+}
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

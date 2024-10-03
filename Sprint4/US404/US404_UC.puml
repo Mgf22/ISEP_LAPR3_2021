@@ -1,0 +1,8 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor TrafficManager
+rectangle "System"{
+    TrafficManager--(Know the number of days each ship has been idle since the beginning of the current year)
+}
+@enduml

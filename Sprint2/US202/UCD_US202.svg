@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="183px" preserveAspectRatio="none" style="width:715px;height:183px;background:#FFFFFF;" version="1.1" viewBox="0 0 715 183" width="715px" zoomAndPan="magnify"><defs><filter height="300%" id="f1i0ljwv1450yv" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[99b31deea5d7419a569cd5090bf83263]
+cluster System--><rect fill="#FFFFFF" filter="url(#f1i0ljwv1450yv)" height="164" style="stroke:#000000;stroke-width:1.5;" width="561" x="7" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="50" x="262.5" y="23.5332">System</text><ellipse cx="287.729" cy="98.8458" fill="#FEFECE" filter="url(#f1i0ljwv1450yv)" rx="264.729" ry="55.3458" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="504" x="35.729" y="102.5743">I which to find the closest port of a ship given its CallSign, on a certain DateTime</text><!--MD5=[566a1df68487c1fb1cc09ccf1a09a80e]
+entity TrafficManager--><ellipse cx="660" cy="67" fill="#FEFECE" filter="url(#f1i0ljwv1450yv)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M660,75 L660,102 M647,83 L673,83 M660,102 L647,117 M660,102 L673,117 " fill="none" filter="url(#f1i0ljwv1450yv)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="612" y="137.0332">TrafficManager</text><!--MD5=[f01258eb38a6c74374443f530b8fa8ee]
+link I which to find the closest port of a ship given its CallSign, on a certain DateTime to TrafficManager--><path d="M552.33,99 C574.64,99 595.08,99 611.97,99 " fill="none" id="I which to find the closest port of a ship given its CallSign, on a certain DateTime-TrafficManager" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[21a10c9b474ecc156e8725d97215af63]
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor TrafficManager
+rectangle "System"{
+    (I which to find the closest port of a ship given its CallSign, on a certain DateTime)- -TrafficManager
+}
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

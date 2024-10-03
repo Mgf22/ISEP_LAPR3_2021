@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="333px" preserveAspectRatio="none" style="width:1457px;height:333px;background:#FFFFFF;" version="1.1" viewBox="0 0 1457 333" width="1457px" zoomAndPan="magnify"><defs><filter height="300%" id="f13ec851xitcs8" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[99b31deea5d7419a569cd5090bf83263]
+cluster System--><rect fill="#FFFFFF" filter="url(#f13ec851xitcs8)" height="314" style="stroke:#000000;stroke-width:1.5;" width="1318" x="127" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="50" x="761" y="23.5332">System</text><ellipse cx="786.0159" cy="174.0032" fill="#FEFECE" filter="url(#f13ec851xitcs8)" rx="643.0159" ry="131.0032" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="1265" x="153.5159" y="177.7317">As Ship Captain, I want to provide a database access account, with login “crew” and password “bd7wd5aF”, which gives access exclusively to the information of the containers that are loaded on my ship</text><!--MD5=[0a52bc6ed51ceb008a86f41348bb2385]
+entity ShipCaptain--><ellipse cx="44.5" cy="142" fill="#FEFECE" filter="url(#f13ec851xitcs8)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M44.5,150 L44.5,177 M31.5,158 L57.5,158 M44.5,177 L31.5,192 M44.5,177 L57.5,192 " fill="none" filter="url(#f13ec851xitcs8)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="6" y="212.0332">ShipCaptain</text><!--MD5=[21216bdf506ab29a134c0b95d1c2c0a4]
+link ShipCaptain to As Ship Captain, I want to provide a database access account, with login “crew” and password “bd7wd5aF”, which gives access exclusively to the information of the containers that are loaded on my ship--><path d="M83.19,174 C99.01,174 119.24,174 142.79,174 " fill="none" id="ShipCaptain-As Ship Captain, I want to provide a database access account, with login “crew” and password “bd7wd5aF”, which gives access exclusively to the information of the containers that are loaded on my ship" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[3cf260a28348c5ec8b368d388162d84a]
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor ShipCaptain
+rectangle "System"{
+ShipCaptain- -(As Ship Captain, I want to provide a database access account, with login “crew” and password “bd7wd5aF”, which gives access exclusively to the information of the containers that are loaded on my ship)
+}
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

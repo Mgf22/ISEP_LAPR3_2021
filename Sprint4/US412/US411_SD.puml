@@ -1,0 +1,19 @@
+@startuml
+autonumber
+actor "Ship Chief Eletrical Engineer" as ADM
+
+participant ":UI" as UI
+
+participant ":ReceiveAlert" as COS
+
+activate ADM
+ADM -> UI:
+activate UI
+UI -> COS: calculateenergy()
+activate COS
+COS --> UI: Reveive the energy that needs to be suplied
+deactivate COS
+UI --> ADM: Shows the energy
+deactivate UI
+
+@enduml

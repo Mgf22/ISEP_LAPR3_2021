@@ -1,0 +1,12 @@
+@startuml
+autonumber
+'hide footbox
+actor "Project Manager" as ADM
+
+participant ":System" as Sys
+
+ADM -> Sys : Review the relational data model
+
+
+
+@enduml

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="311px" preserveAspectRatio="none" style="width:1439px;height:311px;background:#FFFFFF;" version="1.1" viewBox="0 0 1439 311" width="1439px" zoomAndPan="magnify"><defs><filter height="300%" id="f6kx3md9023pi" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[99b31deea5d7419a569cd5090bf83263]
+cluster System--><rect fill="#FFFFFF" filter="url(#f6kx3md9023pi)" height="292" style="stroke:#000000;stroke-width:1.5;" width="1202" x="225" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="50" x="801" y="23.5332">System</text><ellipse cx="826.1669" cy="162.9334" fill="#FEFECE" filter="url(#f6kx3md9023pi)" rx="585.1669" ry="119.4334" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="1149" x="251.6669" y="166.6619">As Ship Chief Electrical Engineer I want to know the thermal resistance, for each operating temperature, of each container that must contain at least three different materials in its walls</text><!--MD5=[7df828270211d3db721ffb5807af0752]
+entity ShipChiefElectricalEngineer--><ellipse cx="93.5" cy="131" fill="#FEFECE" filter="url(#f6kx3md9023pi)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M93.5,139 L93.5,166 M80.5,147 L106.5,147 M93.5,166 L80.5,181 M93.5,166 L106.5,181 " fill="none" filter="url(#f6kx3md9023pi)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175" x="6" y="201.0332">ShipChiefElectricalEngineer</text><!--MD5=[4ce4a5388e491296c411bfba91f5ea6e]
+link ShipChiefElectricalEngineer to As Ship Chief Electrical Engineer I want to know the thermal resistance, for each operating temperature, of each container that must contain at least three different materials in its walls--><path d="M181.17,163 C199.02,163 219.07,163 240.74,163 " fill="none" id="ShipChiefElectricalEngineer-As Ship Chief Electrical Engineer I want to know the thermal resistance, for each operating temperature, of each container that must contain at least three different materials in its walls" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[b9cd7d46649a7ed0c2f70585466fea06]
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor ShipChiefElectricalEngineer
+rectangle "System"{
+ShipChiefElectricalEngineer- -(As Ship Chief Electrical Engineer I want to know the thermal resistance, for each operating temperature, of each container that must contain at least three different materials in its walls)
+}
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 14:26:11 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="219px" preserveAspectRatio="none" style="width:899px;height:219px;background:#FFFFFF;" version="1.1" viewBox="0 0 899 219" width="899px" zoomAndPan="magnify"><defs><filter height="300%" id="f1i2o1schhumzi" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[99b31deea5d7419a569cd5090bf83263]
+cluster System--><rect fill="#FFFFFF" filter="url(#f1i2o1schhumzi)" height="200" style="stroke:#000000;stroke-width:1.5;" width="745" x="7" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="50" x="354.5" y="23.5332">System</text><ellipse cx="379.75" cy="117.25" fill="#FEFECE" filter="url(#f1i2o1schhumzi)" rx="356.75" ry="73.75" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="690" x="34.75" y="120.9785">I which to import data from countries, ports, borders and seadists from the database to build a freight network.</text><!--MD5=[566a1df68487c1fb1cc09ccf1a09a80e]
+entity TrafficManager--><ellipse cx="844" cy="85" fill="#FEFECE" filter="url(#f1i2o1schhumzi)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M844,93 L844,120 M831,101 L857,101 M844,120 L831,135 M844,120 L857,135 " fill="none" filter="url(#f1i2o1schhumzi)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="796" y="155.0332">TrafficManager</text><!--MD5=[4e0f8f88dded87ae25d9e9ca1a666266]
+link I which to import data from countries, ports, borders and seadists from the database to build a freight network. to TrafficManager--><path d="M736.02,117 C758.65,117 779.02,117 795.76,117 " fill="none" id="I which to import data from countries, ports, borders and seadists from the database to build a freight network.-TrafficManager" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[26cd72068e2966b353fc4e4cbc72e08b]
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor TrafficManager
+rectangle "System"{
+    (I which to import data from countries, ports, borders and seadists from the database to build a freight network.)- -TrafficManager
+}
+@enduml
+
+PlantUML version 1.2021.15(Tue Nov 30 16:45:34 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

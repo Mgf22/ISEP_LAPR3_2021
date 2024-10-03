@@ -1,0 +1,8 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor ShipChiefElectricalEngineer
+rectangle "System"{
+    ShipChiefElectricalEngineer--(Know set of materials to use in a container, to operate at temperatures of 7°C)
+}
+@enduml

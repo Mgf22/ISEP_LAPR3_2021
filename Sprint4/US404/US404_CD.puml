@@ -1,0 +1,24 @@
+@startuml
+class IdleShipUI{
+}
+
+class IdleShipController{
++getIdleShip()
+}
+
+class Company{
++getIdleShipStore()
+}
+
+class IdleShipStore{
++getIdleShipStore()
+}
+
+IdleShipUI ..> IdleShipController
+IdleShipController ..> IdleShipStore
+IdleShipController ..> Company
+Company --> IdleShipStore
+
+
+
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+autonumber
+'hide footbox
+actor "Traffic Manager" as ADM
+
+participant ":System" as Sys
+
+ADM -> Sys : Know which ports are more critical
+Sys --> ADM : Show the ports that have greater centrality
+
+
+@enduml
